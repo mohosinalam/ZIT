@@ -1,0 +1,222 @@
+/*common start*/
+body{margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16;
+    font-weight: 400px;
+    color :#626262 ;
+}
+/*common end*/
+/* header start */
+header{
+padding: 25px 0;
+}
+.wrapper {
+    width: 90%;
+    /* border: 1px solid royalblue; */
+    margin: 0 auto;
+    overflow: hidden;
+     margin-top:15px ;
+}
+
+.logo {
+    width: 15%;
+    /* border: 1px solid yellowgreen;  */
+    float: left;
+}
+.logo img{width: 100%;
+
+}
+.menu {
+    width: 65%;
+    /* border: 1px solid red; */
+    float: right;
+}
+.menu ul{
+float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+
+}
+.menu ul li a{
+text-decoration: none;
+color: #626262; ;
+margin-right: 100px;
+display: inline-block;
+font-size: 14px;
+text-overflow: uppercase;
+transition: .3s;
+text-transform: uppercase;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+.menu ul li a:hover{
+border-bottom: 1px solid #626262;
+}
+/* header end */
+/* banner start */
+
+.banner_img img{
+width: 100%;
+}
+
+/* banner end */
+/* perfact start */
+.perfact{
+padding: 100px 0;
+}
+.wrapper2{
+width: 80%;
+margin: 0 auto;
+/* border: 1px solid green; */
+}
+
+.ubuntu{
+    font-weight: 300;
+    font-size: 14px;
+color: #b4ad9e;
+text-transform: uppercase;
+padding-top: 20px;
+}
+h1{
+font-size: 30px;
+}
+.p_text{
+font-size: 14px;
+line-height: 25px;
+}
+/* perfact end */
+/* blog start */
+.blog {padding-bottom: 40px;
+}
+.blog_contant {
+   overflow: hidden;
+}
+
+.single_item {
+    float: left;
+    width: 47%;
+    margin-bottom: 60px;
+}
+.single_item:nth-child(even){
+    
+    margin-left: 6%;
+}
+
+.blog_img {
+    margin-bottom: 25px;
+}
+.blog_img img{
+
+    width: 100%;
+}
+h2{margin: 15px o 25px;
+    font-size: 30px;
+}
+/* blog end */
+/* newsletter start */
+.newsletter{
+    background-color:#F0F0F0 ;
+    padding: 70px 0;
+    margin-bottom: 60px;
+}
+.n_contant{
+text-align: center;
+}
+.tittle{
+    margin-bottom: 70px;
+    color: #333333;
+}
+.s_from{
+width: 400px;
+position: relative;
+}
+.s_from input{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    width: 400px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+}
+.s_from input:focus{
+    outline: o;
+}
+.s_from button{
+background: transparent;
+border: none;
+cursor: pointer;
+position: absolute;
+}
+.s_from button:focus{
+    outline: 0;
+}
+
+/* newsletter end */
+
+/* load more start */
+.load{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background:transparent ;
+    border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color :#626262 ;
+    cursor: pointer;
+
+}
+.load button:hover{
+    background-color: #626262;
+    color: white;
+}
+/* load more end */
+/* footer start */
+footer{
+    background-color: #F0F0F0;
+    padding: 30px 0 35px;
+}
+.trems {
+width: 30%;
+float: left;
+/* border: 1px solid greenyellow; */
+}
+.trems ul li{
+list-style: none;
+}
+.trems ul li a{
+text-decoration: none;
+color: #000000;
+font-size: 14px;
+float: left;
+margin-left: 40px;
+}
+.privacy {
+    width:30% ;
+    float: right;
+    /* border:1px solid green ; */
+}
+.follow{
+    margin-right: 20px;
+}
+.privacy ul{
+float: right;
+}
+.privacy ul li{
+float: left;
+list-style: none;
+}
+.privacy ul li a{
+margin-right: 20px;
+}
+/* footer end */
